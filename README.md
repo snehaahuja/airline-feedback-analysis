@@ -21,9 +21,10 @@ Input
    - Service Analysis: Gives an analysis of the feedback and opinion of customers on airline services in the form of percentage and       graphical charts
    - Route Analysis: Gives an analysis of the routes most travelled by customers in the airline in a pie chart
    - Comment Analysis: Gives the analysis of text comments left by the customers for the airline in terms of good, neutral or bad based on a limited data dictionary. Analysis is presented in textual format and graphical format
-   
-   
 
+Usage
+------------------------------------------------
+Open the file 'welcomemain.html' using Google Chrome and follow the instructions on the webpages after that 
    
 
 
