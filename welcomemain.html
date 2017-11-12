@@ -1,0 +1,130 @@
+<html>
+<head>
+<title>Welcome Page</title>
+<style>
+    
+    .one
+    {
+    
+    margin-right:100;
+    font-size:40;
+    color:navy;
+    }
+    .two
+    {
+        float:right;
+        margin-right:40;
+        font-size:40;
+    }
+    
+    .main
+    {
+        
+       position:relative;
+       z-index=1;
+       
+      
+      }
+      .main:before
+      {
+          content:"";
+          position:fixed;
+          z-index:-1;
+          top:0;
+          right:0;
+          bottom:0;
+          left:0;
+          background-image:url("backimg.jpg");
+          background-repeat:no-repeat;
+          background-size:100% 100%;
+          opacity:0.4;
+          border-style:groove;
+          border-width:thick;
+          border-color:purple;
+      }
+    .sub1 {
+    margin: 0 auto 5px auto;
+    display: block;
+    width: 134px;
+    height: 35px;
+    border: 0 none;
+    font-weight: bold;
+    font-size: 20;
+    text-align: center;
+    background-color : navy;
+    border-width :inherit;
+    color : #ffffff;
+    cursor: pointer;
+}
+    .three
+    {
+        
+        
+        font-size:30;
+        color:#FF0000 ;
+    }
+    .sign
+    {
+         font-size:40;
+        font-weight:bold;
+        
+              }
+   .five
+   {
+      font-size:50;
+       
+   }
+   html
+   
+   {
+       height:100%;
+   }
+   .int
+   {
+       font-size:120;
+       color:white;
+       background-color:navy;
+   }
+   .main1
+   {
+       
+       
+       width:350px;
+       height:250px;
+   }
+ 
+</style>
+</head>
+
+<body>
+<div class="main">
+
+<div class="int">
+<center><b>GO INDIA!</b></center>
+</div>
+<div class="five">
+<font align="center" color="navy" face="comic sans ms"><h4><b>WELCOME TO THE FEEDBACK PAGE</b></h4></font>
+</div>
+
+
+<br/>
+<center>
+
+<br/>
+<div class="main1">
+<div class="sign">
+Please Sign in to Continue
+</div>
+<br /><br />
+<div class="three">
+<br/>
+<form action="welcome.php" method="post">
+    <input type="submit" value="USER" name="user" class="sub1">
+<input type="submit" value="ADMIN"name="admin" class="sub1">
+    </form>
+</div>
+</center>
+</div>
+</div>
+</body>
+</html>

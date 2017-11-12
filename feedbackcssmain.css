@@ -1,0 +1,13 @@
+.sub {
+    margin: 0 auto 5px auto;
+    display: block;
+    width: 134px;
+    height: 35px;
+    border: 0 none;
+    font-weight: bold;
+    text-align: center;
+    background-color : navy;
+    border-width : thin;
+    color : #ffffff;
+    cursor: pointer;
+}
